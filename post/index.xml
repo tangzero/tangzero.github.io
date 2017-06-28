@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on TangZero | Blog</title>
+    <link>http://tangzero.com/post/</link>
+    <description>Recent content in Posts on TangZero | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>&amp;copy; 2017 | Siga-me no &lt;a href=&#34;https://twitter.com/tangzero&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <lastBuildDate>Tue, 27 Jun 2017 17:10:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://tangzero.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://tangzero.com/post/hello-world/</link>
+      <pubDate>Tue, 27 Jun 2017 17:10:01 -0400</pubDate>
+      
+      <guid>http://tangzero.com/post/hello-world/</guid>
+      <description> Hello World package main import &amp;quot;fmt&amp;quot; func main() { ch := make(chan float64) ch &amp;lt;- 1.0e10 // magic number x, ok := &amp;lt;- ch defer fmt.Println(`exitting now\`) go println(len(&amp;quot;hello world!&amp;quot;)) return }  </description>
+    </item>
+    
+  </channel>
+</rss>
