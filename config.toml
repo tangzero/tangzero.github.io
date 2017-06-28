@@ -1,0 +1,34 @@
+baseURL = "http://tangzero.com"
+languageCode = "pt-br"
+title = "TangZero | Blog"
+theme = "hucore"
+copyright = "&copy; 2017 | Siga-me no <a href=\"https://twitter.com/tangzero\" target=\"_blank\">Twitter</a> | <a href=\"https://github.com/mgjohansen/hucore.git\" target=\"_blank\">Hucore</a> & <a href=\"http://gohugo.io\" target=\"_blank\">Hugo</a> ♥"
+disqusShortname = "tangzero"
+googleAnalytics = "UA-101783674-1"
+
+[taxonomies]
+tag = "tags"
+category = "categorias"
+
+[params]
+description = "Your description here"
+keywords = ["go", "golang", "docker", "development", "blog"]
+author = "Jairo Luiz"
+sharingicons = true
+displayauthor = true
+
+[params.highlight]
+style = "solarized-light"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/tangzero"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/tangzero"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
