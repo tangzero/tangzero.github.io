@@ -1,34 +1,44 @@
 baseURL = "http://tangzero.com"
 languageCode = "pt-br"
 title = "TangZero | Blog"
-theme = "hucore"
-copyright = "&copy; 2017 | Siga-me no <a href=\"https://twitter.com/tangzero\" target=\"_blank\">Twitter</a> | <a href=\"https://github.com/mgjohansen/hucore.git\" target=\"_blank\">Hucore</a> & <a href=\"http://gohugo.io\" target=\"_blank\">Hugo</a> ♥"
+theme = "minimo"
+copyright = "© 2017 TangZero"
 disqusShortname = "tangzero"
 googleAnalytics = "UA-101783674-1"
+pygmentsuseclasses = true
 
 [taxonomies]
-tag = "tags"
-category = "categorias"
+  tag = "tags"
+  category = "categorias"
 
 [params]
-description = "Your description here"
-keywords = ["go", "golang", "docker", "development", "blog"]
-author = "Jairo Luiz"
-sharingicons = true
-displayauthor = true
+  description = "Minimalist theme for Hugo"
+  dateFormat = "02/01/2006"
+  copyrightOwner = "MunifTanjim"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = true
+  customCSS = ["css/styles.css", "css/syntax-highlight.css"]
 
-[params.highlight]
-style = "solarized-light"
-languages = ["go", "dockerfile"]
+[social]
+  facebook = ""
 
-[[params.social]]
-url = "https://github.com/tangzero"
-fa_icon = "fa-github"
+[author]
+  name = "Jairo Luiz"
 
-[[params.social]]
-url = "https://twitter.com/tangzero"
-fa_icon = "fa-twitter"
+[author.social]
+  github = "tangzero"
+  twitter = "tangzero"
 
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+[[menu.main]]
+  name = "Home"
+  weight = -70
+  identifier = "home"
+  url = "/"
+
+defaultContentLanguage = "pt"
+[languages]
+  [languages.pt]
+    lang = "pt"
+    languageName = "Portuguese"
+    weight = 1

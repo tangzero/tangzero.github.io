@@ -6,7 +6,7 @@ draft: true
 
 # Hello World
 
-```go
+{{<highlight go>}}
 package main
 
 import "fmt"
@@ -19,4 +19,4 @@ func main() {
     go println(len("hello world!"))
     return
 }
-```
+{{</highlight>}}
