@@ -1,41 +1,41 @@
 [by]
-  other = "by"
+  other = "por"
 
 [currentPage]
-  other = "Current page"
+  other = "Página atual"
 
 [mainMenu]
-  other = "Main Menu"
+  other = "Menu principal"
 
 [next]
-  other = "Next"
+  other = "Próximo"
 
 [nextPage]
-  other = "Next page"
+  other = "Proxima página"
 
 [nextPost]
-  other = "Next post"
+  other = "Próximo post"
 
 [openSomethingInNewTab]
-  other = "Open {{ .Something }} in new tab"
+  other = "Abrir {{ .Something }} em uma nova página"
 
 [page]
-  other = "Page"
+  other = "Página"
 
 [previous]
-  other = "Previous"
+  other = "Anterior"
 
 [previousPage]
-  other = "Previous page"
+  other = "Página anterior"
 
 [previousPost]
-  other = "Previous post"
+  other = "Post anterior"
 
 [postedOn]
-  other = "Posted on"
+  other = "Postado em"
 
 [recentPosts]
-  other = "Recent Posts"
+  other = "Posts recentes"
 
 [socialMenu]
-  other = "Social Menu"
+  other = "Social"

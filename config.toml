@@ -2,7 +2,6 @@ baseURL = "http://tangzero.com"
 languageCode = "pt-br"
 title = "TangZero | Blog"
 theme = "minimo"
-copyright = "© 2017 TangZero"
 disqusShortname = "tangzero"
 googleAnalytics = "UA-101783674-1"
 pygmentsuseclasses = true
@@ -12,9 +11,9 @@ pygmentsuseclasses = true
   category = "categorias"
 
 [params]
-  description = "Minimalist theme for Hugo"
+  description = "Meu cantinho para falar de tecnologia"
   dateFormat = "02/01/2006"
-  copyrightOwner = "MunifTanjim"
+  copyrightOwner = "TangZero"
   copyrightStartYear = "2017"
   favicon = "favicon.ico"
   hideEntryNavigation = true
