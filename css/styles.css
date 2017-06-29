@@ -1,0 +1,4 @@
+.comments-container #disqus_thread, .entry-content, .entry-footer, .entry-header, .entry-nav-links, .footer, .list-container, .site-header {
+    width: 100%;
+    max-width: 700px;
+}
